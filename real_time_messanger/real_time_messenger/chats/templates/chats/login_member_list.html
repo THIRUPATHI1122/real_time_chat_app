@@ -1,6 +1,0 @@
-<h2>Members</h2>
-<ul>
-    {% for member in members %}
-    <li><a href="{% url 'chat' member.id %}">{{ member.username }}</a></li>
-    {% endfor %}
-</ul>
